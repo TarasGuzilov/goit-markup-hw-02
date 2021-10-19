@@ -1,0 +1,31 @@
+:root {
+  --background-color: #ffffff;
+  --active-link-color: #2196f3;
+}
+/* Teg's styles */
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--background-color);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Logotype */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+}
+.web {
+  color: #2196f3;
+}
+
+/* Navigation */
+
+.nav-link:hover,
+.contact-link:hover,
+.nav-link:focus,
+.contact-link:focus {
+  color: var(--active-link-color);
+}

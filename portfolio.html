@@ -4,22 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <style>
+        li {
+            list-style-type: none;
+        }
+
+        ul {
+            margin-left: 0;
+            padding-left: 0;
+        }
+    </style>
     <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-            <a class="" href="/">WebStudio</a>
-            <ul>
-                <li><a href="/">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="/">Контакты</a></li>
+            <a class="logo" href="./index.html"><span class="web">Web</span>Studio</a>
+            <ul class="site-nav">
+                <li><a href="./index.html" class="nav-link">Студия</a></li>
+                <li><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
+                <li><a href="/" class="nav-link">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tell:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="auth-nav">
+            <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
+            <li><a href="tell:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
         </ul>
     </header>
 
@@ -27,11 +39,21 @@
         <section>
             <!--Filters-->
             <ul>
-                <li type="button">Все</li>
-                <li type="button">Веб-сайты</li>
-                <li type="button">Приложения</li>
-                <li type="button">Дизайн</li>
-                <li type="button">Маркетинг</li>
+                <li>
+                    <button type="button">Все</button>
+                </li>
+                <li>
+                    <button type="button">Веб-сайты</button>
+                </li>
+                <li>
+                    <button type="button">Приложения</button>
+                </li>
+                <li>
+                    <button type="button">Дизайн</button>
+                </li>
+                <li>
+                    <button type="button">Маркетинг</button>
+                </li>
             </ul>
             <!--Filter's info-->
             <ul>
@@ -119,5 +141,14 @@
             </ul>
         </section>
     </main>
+
+    <footer>
+        <a class="logo" href="./index.html"><span class="web">Web</span>Studio</a>
+        <address>
+            <span>г. Киев, пр-т Леси Украинки, 26</span>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="tell:+380961111111">+38 096 111 11 11</a>
+        </address>
+    </footer>
 </body>
 </html>
