@@ -2,6 +2,7 @@
   --background-color: #ffffff;
   --active-link-color: #2196f3;
   --title-text-color: #212121;
+  --text-color: #757575;
 }
 /* Teg's styles */
 body {
@@ -16,16 +17,23 @@ a {
   text-decoration: none;
   color: inherit;
 }
+h2 h3 {
+  color: var(--title-text-color);
+}
+footer {
+  background-color: #2f303a;
+}
 
 /* Logotype */
-.logo {
+.header-logo {
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .web {
-  color: #2196f3;
+  color: var(--active-link-color);
 }
 
 /* Navigation */
@@ -35,9 +43,15 @@ a {
 .contact-link:focus {
   color: var(--active-link-color);
 }
-.nav-link,
-.contact-link {
+.nav-link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contact-link {
+  color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -67,4 +81,65 @@ a {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
+}
+
+/* Features section */
+.features-headings {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-text {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* What we are doing section */
+.webstudio-h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Our team section */
+.name-of-staff-member {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.proffesion {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Footer */
+.footer-logo {
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.footer-address {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+.footer-link {
+  color: rgba(255, 255, 255, 0.6);
 }
