@@ -175,8 +175,13 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--active-link-color);
 }
