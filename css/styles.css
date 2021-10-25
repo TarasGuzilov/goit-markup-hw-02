@@ -27,7 +27,7 @@ footer {
 /* Logotype */
 .header-logo {
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -78,14 +78,14 @@ footer {
 }
 .hero-button-text {
   color: #ffffff;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
 }
 
 /* Features section */
 .features-headings {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -100,7 +100,7 @@ footer {
 
 /* What we are doing section */
 .webstudio-h2 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -124,11 +124,48 @@ footer {
   letter-spacing: 0.03em;
 }
 
+/* Filters section */
+.filter-button {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+}
+.filter-button-text {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 6px 22px;
+}
+.filter-button:focus,
+.filter-button:hover {
+  background-color: var(--active-link-color);
+}
+.filter-button:hover .filter-button-text,
+.filter-button:focus .filter-button-text {
+  color: #ffffff;
+}
+.filter-project-name {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.filter-project-type {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+
 /* Footer */
 .footer-logo {
   color: #ffffff;
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -138,8 +175,8 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  font-style: normal;
 }
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
