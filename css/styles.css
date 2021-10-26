@@ -113,6 +113,9 @@ footer {
 }
 
 /* Our team section */
+.our-team {
+  background-color: #f5f4fa;
+}
 .name-of-staff-member {
   color: var(--title-text-color);
   font-weight: 500;
@@ -176,15 +179,16 @@ footer {
   letter-spacing: 0.03em;
 }
 .footer-address {
+  font-style: normal;
+}
+.address {
   color: #ffffff;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  font-style: normal;
 }
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
 }
 .footer-link:hover,
 .footer-link:focus {
