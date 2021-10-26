@@ -43,6 +43,9 @@ footer {
 .contact-link:focus {
   color: var(--active-link-color);
 }
+.site-nav a:active {
+  color: var(--active-link-color);
+}
 .nav-link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -137,8 +140,6 @@ footer {
   background-color: #f5f4fa;
   border-radius: 4px;
   border: none;
-}
-.filter-button-text {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -150,9 +151,6 @@ footer {
 .filter-button:focus,
 .filter-button:hover {
   background-color: var(--active-link-color);
-}
-.filter-button:hover .filter-button-text,
-.filter-button:focus .filter-button-text {
   color: #ffffff;
 }
 .filter-project-name {
