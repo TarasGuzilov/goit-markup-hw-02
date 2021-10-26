@@ -43,15 +43,15 @@ footer {
 .contact-link:focus {
   color: var(--active-link-color);
 }
-.site-nav a:active {
-  color: var(--active-link-color);
-}
 .nav-link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.current-link {
+  color: var(--active-link-color);
 }
 .contact-link {
   color: var(--text-color);
